@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#erl -eval "compile:file(pomodoroerl),pomodoroerl:start()" -noshell -detached
+erl -compile pomodoroerl
+#erl -compile pomodoroerl -eval "pomodoroerl:start()"
+erl -eval "pomodoroerl:start()" -noshell -detached
+
